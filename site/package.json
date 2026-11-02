@@ -1,0 +1,14 @@
+{
+  "name": "nepam-landing",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node build.mjs",
+    "pages": "node build-pages.mjs",
+    "leads": "node server.mjs --leads"
+  }
+}

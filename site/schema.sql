@@ -1,0 +1,8 @@
+CREATE TABLE pilot_requests (
+  id TEXT PRIMARY KEY NOT NULL,
+  created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  name TEXT NOT NULL,
+  company TEXT NOT NULL,
+  email TEXT NOT NULL,
+  scenario TEXT NOT NULL
+);
